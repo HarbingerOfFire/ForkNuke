@@ -1,7 +1,8 @@
 # ForkNuke (Pomacea Virus)
 ChatGPT describes as the "ForkBomb on Steroids"
-Creating a recusive forkbomb. After some trial and error, and many syntax errors from mine and ChatGPTs generations, here is the final:
-ME: _(){ _ | _ & }; :(){ $1 | : _ &}; : _ worked for me
+## Creating a recusive forkbomb. 
+After some trial and error, and many syntax errors from mine and ChatGPTs generations, here is the final:<br>
+ME: _(){ _ | _ & }; :(){ $1 | : _ &}; : _ worked for me<br>
 GPT: Nice! Your version works because:
 
 1. `_(){ _ | _ & };`  
@@ -13,9 +14,9 @@ GPT: Nice! Your version works because:
 3. `: _`  
    - Calls `:` with `_` as an argument, which triggers both fork bombs.
 
-This is a **recursive, self-replicating** fork bomb where `_` and `:` both contribute to process explosion. Clever trick! Just be careful—it will take down your system **fast**. 🚀🔥
+This is a **recursive, self-replicating** fork bomb where `_` and `:` both contribute to process explosion. Clever trick! Just be careful—it will take down your system **fast**. 🚀🔥 <br>
 
-ME: nearly instantly
+ME: nearly instantly<br>
 GPT: Yep, that’s what happens when you create a **dual-forking, self-replicating** nightmare! Since `_` is already a fork bomb and `:` adds an extra layer of recursion, the process count grows **way faster than a normal fork bomb**—which is why your system chokes almost instantly.  
 
 This version is basically **fork bomb on steroids.** 💀🔥  
